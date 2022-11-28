@@ -1,19 +1,4 @@
-Week 1 Toy problems Prerequisites
-Prerequisites:
-
-1. Create a repository on your GitHub account.
-
-NB: One folder, with 3-4 files for each solution. Please note that a single file should only hold one solution.
-
-2. Use JavaScript to wire down the solution.
-
-3. Push the solution to the above repository once done.
-
-4. Submit the repository link for grading.
-
-5. Ensure your repository has a well written README.
-
-NOTE: You are required to complete ALL the challenges.
+Week 1 Toy problems:
 
 Challenge 1: Student Grade Generator (Toy Problem)
 
@@ -21,11 +6,20 @@ Write a function that prompts the user to input student marks. The input should 
 
         A > 79, B - 60 to 79, C -  59 to 49, D - 40 to 49, E - less 40.
 
+Solution.
+
+Run npm install prompt-sync in terminal
+Run node "FILENAME.js" where the filename is the name of your JavaScript file.
+
 Challenge 2: Speed Detector (Toy Problem)
 
 Write a program that takes the speed of a car as input e.g 80. If the speed is less than 70, it should print “Ok”. Otherwise, for every 5 km/s above the speed limit (70), it should give the driver one demerit point and print the total number of demerit points.
 
 > For example, if the speed is 80, it should print: “Points: 2”. If the driver gets more than 12 points, the function should print: “License suspended”.
+
+Solution.
+Run npm install prompt-sync in terminal
+Run node "FILENAME.js" where the filename is the name of your JavaScript file.
 
 Challenge 3: Net Salary Calculator (Toy Problem)
 
@@ -38,3 +32,8 @@ NB: Use KRA, NHIF, and NSSF values provided in the link below.
 Links to an external site.- Links to an external site.Links to an external site.
 
 - www.kra.go.ke/en/individual/calculate-tax/calculating-tax/paye
+
+Solution.
+
+Run npm install prompt-sync in terminal
+Run node "FILENAME.js" where the filename is the name of your JavaScript file.

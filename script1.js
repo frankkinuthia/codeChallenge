@@ -1,4 +1,5 @@
 const prompt = require('prompt-sync')();
+//prompt the user to input marks
 const marks = prompt("Please Enter Student Marks: ");
 // Writing out our program using nested if else:
   function studentGradeGenerator() {
@@ -23,7 +24,6 @@ const marks = prompt("Please Enter Student Marks: ");
     }
   };
   
-  //prompt the user to input marks
- 
+   
   studentGradeGenerator();
 
