@@ -3,7 +3,7 @@ const prompt = require('prompt-sync')();
 //prompt the user to input salary for the calculator:
 const basicSalary = parseInt(prompt("Please Enter Your Salary: "));
 const totalBenefits = parseInt(prompt("Please Enter Your Benefits: "));
-let totalSalary = parseInt(basicSalary + totalBenefits);
+let totalSalary = parseInt(basicSalary - totalBenefits);
 function grossSalary (){
   console.log(totalSalary);
 }

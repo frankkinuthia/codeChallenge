@@ -4,7 +4,7 @@ const marks = prompt("Please Enter Student Marks: ");
 // Writing out our program using nested if else:
   function studentGradeGenerator() {
         
-      if (marks > 79 && marks < 100) { 
+      if (marks > 79 && marks <= 100) { 
       console.log("A");
     }
     else if (marks >= 60 && marks <=79) {
